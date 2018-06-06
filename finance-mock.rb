@@ -1,9 +1,9 @@
 class FinanceMock < Formula
   desc "finance-mock is a mock HTTP server that generates API responses. It can be used instead to make test suites faster and less brittle."
   homepage "https://github.com/piquette/finance-mock"
-  url "https://github.com/piquette/finance-mock/releases/download/v0.0.2/finance-mock_0.0.2_darwin_amd64.tar.gz"
-  version "0.0.2"
-  sha256 "3bcf92d9dc4a1ddf4a410564f9fef1db63a0ceddf452bfea576ff02101e8b51a"
+  url "https://github.com/piquette/finance-mock/releases/download/v0.0.3/finance-mock_0.0.3_darwin_amd64.tar.gz"
+  version "0.0.3"
+  sha256 "d3616e40eefa725fbf0d14c053378bf042721ed87e72c4806fd1235f7f2374ec"
 
   def install
     bin.install "finance-mock"
